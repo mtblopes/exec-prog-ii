@@ -2,7 +2,7 @@
     Data: 28/03/2026    */
 
 #include <stdio.h>
-#define MAX 1000
+#define MAX 100
 
 typedef struct{
     int linha;
@@ -51,60 +51,77 @@ return prioridade;
 }
 
 int ehLivre (tMatriz mapa, int i, int j){
+    if(i < 1 || i > mapa.linha || j < 1 || j > mapa.coluna){
+        return 0;
+    }
     return mapa.mat[i][j] == 0;
 }
 
-int direcao(char c){
-        switch (c)
-        {
-        case 'C':
-            return -1;
-        case 'B':
-            return 1;
-        case 'D':
-            return 2;
-        case 'E':
-            return -2;
-        default:
-            break;
-        }
-return 0;
-}
-
-void caminho(tMatriz mapa, tPosicao inicio, tPosicao fim, tPrioridade p){
-    int i, j;
-
-    printf("(%d,%d) ", inicio.xi, inicio.xj);
-
-    while (inicio.xi != fim.xi || inicio.xj != fim.xj){
-        
-        printf("(%d,%d)", inicio.xi, inicio.xj);
-       
-        if(primeira(p) == -1 && ehLivre(mapa, inicio.xi - 1, inicio.xj)){
-            inicio.xi = inicio.xi - 1;
-            printf("(%d,%d)", inicio.xi, inicio.xj);
+tPosicao proximaPosicao (tPosicao atual, char dir)
+{
+    tPosicao proxima = atual;
+        if (dir == 'C'){
+            proxima.xi--;
         } else {
-            if(primeira(p) == 1 && ehLivre(mapa, inicio.xi+1, inicio.xj)){
-                inicio.xi = inicio.xi + 1;
-                printf("(%d,%d)", inicio.xi, inicio.xj);
+            if(dir == 'B'){
+                proxima.xi++;
             } else {
-                if(primeira(p) == 2 && ehLivre(mapa, inicio.xi, inicio.xj+1)){
-                    inicio.xj = inicio.xj + 1;
-                    printf("(%d,%d)", inicio.xi, inicio.xj);
+                if(dir == 'D'){
+                    proxima.xj++;
                 } else {
-                    if(primeira(p) == -2 && ehLivre(mapa, inicio.xi, inicio.xj-1)){
-                        inicio.xj = inicio.xj - 1;
-                        printf("(%d,%d)", inicio.xi, inicio.xj);
+                    if (dir == 'E'){
+                        proxima.xj--;
                     }
                 }
             }
         }
+    return proxima;
+}
+
+void caminho(tMatriz mapa, tPosicao inicio, tPosicao fim, tPrioridade p){
+    int andou;
+    tPosicao prox;
+
+    printf("(%d,%d) ", inicio.xi, inicio.xj);
+    mapa.mat[inicio.xi][inicio.xj] = 1;
+
+    while (inicio.xi != fim.xi || inicio.xj != fim.xj)
+    {
+        andou = 0;
+        prox = proximaPosicao(inicio, p.pri);
+        if(ehLivre(mapa, prox.xi, prox.xj)){
+            inicio = prox;
+            andou = 1;
+        } else {
+            prox = proximaPosicao(inicio, p.seg);
+            if(ehLivre(mapa, prox.xi, prox.xj)){
+                inicio = prox;
+                andou = 1;
+            } else {
+                prox = proximaPosicao(inicio, p.ter);
+                if(ehLivre(mapa,prox.xi, prox.xj)){
+                    inicio = prox;
+                    andou = 1; 
+                } else {
+                    prox = proximaPosicao(inicio, p.qua);
+                    if(ehLivre(mapa, prox.xi, prox.xj)){
+                        inicio = prox;
+                        andou = 1;
+                    }
+                }
+            }
+        }
+        
+        if(!andou){
+            break;
+        }
+        mapa.mat[inicio.xi][inicio.xj] = 1;
+        printf("(%d,%d) ", inicio.xi, inicio.xj);   
     }
 }
 
 
 int main (){
-    int linha, coluna;
     tMatriz mat;
     tPosicao inicio, fim;
     tPrioridade priori;
