@@ -1,0 +1,47 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Maria
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Maria:
+ - Diretório Resultados/Maria criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Maria/esfera_utils.c' encontrado!
+ - Arquivo esperado 'Respostas/Maria/esfera_utils.h' encontrado!
+ - Arquivo esperado 'Respostas/Maria/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+
+EXECUTANDO O PROGRAMA EM CADA CASO:
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Maria
+ - Arquivos Esperados Corretos: 0 de 3
+ - Pastas Compiladas Corretamente: 0 de 0 
+ - Pastas Linkadas Corretamente: 0 de 0
+ - Nota de Maria: 
+ - Nota de Maria: 
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
