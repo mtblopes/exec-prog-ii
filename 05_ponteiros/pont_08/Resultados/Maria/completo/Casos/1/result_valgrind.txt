@@ -1,0 +1,6 @@
+==85546== Memcheck, a memory error detector
+==85546== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==85546== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==85546== Command: Resultados/Maria/completo/prog Resultados/Maria/completo/Casos/1
+==85546== Parent PID: 85545
+==85546== 

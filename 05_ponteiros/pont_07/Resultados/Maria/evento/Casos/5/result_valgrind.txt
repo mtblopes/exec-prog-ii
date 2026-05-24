@@ -1,0 +1,14 @@
+==75486== Memcheck, a memory error detector
+==75486== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==75486== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==75486== Command: Resultados/Maria/evento/prog Resultados/Maria/evento/Casos/5
+==75486== Parent PID: 75485
+==75486== 
+==75486== Conditional jump or move depends on uninitialised value(s)
+==75486==    at 0x40013F5: trocarDataEvento (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/05_ponteiros/pont_07/Resultados/Maria/evento/prog)
+==75486==    by 0x400171B: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/05_ponteiros/pont_07/Resultados/Maria/evento/prog)
+==75486== 
+==75486== Conditional jump or move depends on uninitialised value(s)
+==75486==    at 0x4001402: trocarDataEvento (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/05_ponteiros/pont_07/Resultados/Maria/evento/prog)
+==75486==    by 0x400171B: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/05_ponteiros/pont_07/Resultados/Maria/evento/prog)
+==75486== 

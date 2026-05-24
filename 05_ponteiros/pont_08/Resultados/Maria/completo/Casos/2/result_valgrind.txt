@@ -1,0 +1,6 @@
+==85635== Memcheck, a memory error detector
+==85635== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==85635== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==85635== Command: Resultados/Maria/completo/prog Resultados/Maria/completo/Casos/2
+==85635== Parent PID: 85634
+==85635== 

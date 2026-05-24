@@ -1,0 +1,6 @@
+==85718== Memcheck, a memory error detector
+==85718== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==85718== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==85718== Command: Resultados/Maria/completo/prog Resultados/Maria/completo/Casos/3
+==85718== Parent PID: 85717
+==85718== 

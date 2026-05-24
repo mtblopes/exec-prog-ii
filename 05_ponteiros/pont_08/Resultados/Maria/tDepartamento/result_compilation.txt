@@ -1,0 +1,4 @@
+tDepartamento.c: In function ‘OrdenaDepartamentosPorMedia’:
+tDepartamento.c:66:17: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   66 |    for(int i=0;i,num_deptos;i++)
+      |                 ^

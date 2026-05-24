@@ -1,0 +1,14 @@
+==74940== Memcheck, a memory error detector
+==74940== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==74940== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==74940== Command: Resultados/Maria/completo/prog Resultados/Maria/completo/Casos/7
+==74940== Parent PID: 74939
+==74940== 
+==74940== Conditional jump or move depends on uninitialised value(s)
+==74940==    at 0x40013D5: trocarDataEvento (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/05_ponteiros/pont_07/Resultados/Maria/completo/prog)
+==74940==    by 0x4001707: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/05_ponteiros/pont_07/Resultados/Maria/completo/prog)
+==74940== 
+==74940== Conditional jump or move depends on uninitialised value(s)
+==74940==    at 0x40013E2: trocarDataEvento (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/05_ponteiros/pont_07/Resultados/Maria/completo/prog)
+==74940==    by 0x4001707: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/05_ponteiros/pont_07/Resultados/Maria/completo/prog)
+==74940== 

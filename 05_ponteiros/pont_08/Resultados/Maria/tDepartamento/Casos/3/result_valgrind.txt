@@ -1,0 +1,6 @@
+==85966== Memcheck, a memory error detector
+==85966== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==85966== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==85966== Command: Resultados/Maria/tDepartamento/prog Resultados/Maria/tDepartamento/Casos/3
+==85966== Parent PID: 85965
+==85966== 
