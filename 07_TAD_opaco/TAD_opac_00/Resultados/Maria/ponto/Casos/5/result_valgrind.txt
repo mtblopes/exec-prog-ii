@@ -1,0 +1,15 @@
+==11917== Memcheck, a memory error detector
+==11917== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==11917== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==11917== Command: Resultados/Maria/ponto/prog Resultados/Maria/ponto/Casos/5
+==11917== Parent PID: 11916
+==11917== 
+==11917== 
+==11917== HEAP SUMMARY:
+==11917==     in use at exit: 0 bytes in 0 blocks
+==11917==   total heap usage: 6 allocs, 6 frees, 8,232 bytes allocated
+==11917== 
+==11917== All heap blocks were freed -- no leaks are possible
+==11917== 
+==11917== For lists of detected and suppressed errors, rerun with: -s
+==11917== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

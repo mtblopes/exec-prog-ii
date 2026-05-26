@@ -1,0 +1,6 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Maria/completo/main.o: na função "main":
+main.c:(.text+0x23): undefined reference to `CriaVetorTamPadrao'
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x3a): undefined reference to `LeVetor'
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x4a): undefined reference to `ImprimeString'
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x56): undefined reference to `LiberaVetor'
+collect2: error: ld returned 1 exit status
