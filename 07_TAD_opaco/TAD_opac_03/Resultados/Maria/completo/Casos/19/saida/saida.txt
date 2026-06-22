@@ -1,0 +1,69 @@
+Filme cadastrado 21 - 
+
+~ESTOQUE~
+21 -  Fitas em estoque: 0
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+Total de filmes alugados 0 com custo de R$0
+
+Filme nao cadastrado no estoque
+Total de filmes alugados 0 com custo de R$0
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+Total de filmes alugados 0 com custo de R$0
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+Total de filmes alugados 0 com custo de R$0
+
+~ESTOQUE~
+21 -  Fitas em estoque: 0
+
+Filme cadastrado 26 - 
+
+~ESTOQUE~
+21 -  Fitas em estoque: 0
+26 -  Fitas em estoque: 0
+
+Total de filmes alugados 0 com custo de R$0
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+Total de filmes alugados 0 com custo de R$0
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+
+Filme nao cadastrado no estoque
+Total de filmes alugados 0 com custo de R$0
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+Total de filmes alugados 0 com custo de R$0
+
+Filme nao cadastrado no estoque
+Total de filmes alugados 0 com custo de R$0
+
+Filme nao cadastrado no estoque
+Filme nao cadastrado no estoque
+
+~ESTOQUE~
+21 -  Fitas em estoque: 0
+26 -  Fitas em estoque: 0
+
+Lucro: 0

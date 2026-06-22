@@ -1,0 +1,15 @@
+==47035== Memcheck, a memory error detector
+==47035== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==47035== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==47035== Command: Resultados/Maria/main/prog Resultados/Maria/main/Casos/10
+==47035== Parent PID: 47034
+==47035== 
+==47035== 
+==47035== HEAP SUMMARY:
+==47035==     in use at exit: 0 bytes in 0 blocks
+==47035==   total heap usage: 7 allocs, 7 frees, 8,304 bytes allocated
+==47035== 
+==47035== All heap blocks were freed -- no leaks are possible
+==47035== 
+==47035== For lists of detected and suppressed errors, rerun with: -s
+==47035== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

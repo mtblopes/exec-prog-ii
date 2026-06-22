@@ -1,0 +1,13 @@
+filme.c: In function ‘LeFilme’:
+filme.c:34:13: warning: unknown conversion type character ‘ ’ in format [-Wformat=]
+   34 |     scanf("% 29[^,],%d,%d\n", filme->nome, &filme->valor, &filme->qtdEstoque);
+      |             ^
+filme.c:34:22: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘char *’ [-Wformat=]
+   34 |     scanf("% 29[^,],%d,%d\n", filme->nome, &filme->valor, &filme->qtdEstoque);
+      |                     ~^        ~~~~~~~~~~~
+      |                      |             |
+      |                      int *         char *
+      |                     %hhd
+filme.c:34:11: warning: too many arguments for format [-Wformat-extra-args]
+   34 |     scanf("% 29[^,],%d,%d\n", filme->nome, &filme->valor, &filme->qtdEstoque);
+      |           ^~~~~~~~~~~~~~~~~~

@@ -1,0 +1,22 @@
+Filme cadastrado 1 - 
+
+Total de filmes alugados 0 com custo de R$0
+
+~ESTOQUE~
+1 -  Fitas em estoque: 0
+
+Filme cadastrado 15 - 
+
+~ESTOQUE~
+1 -  Fitas em estoque: 0
+15 -  Fitas em estoque: 0
+
+
+Total de filmes alugados 0 com custo de R$0
+
+
+~ESTOQUE~
+1 -  Fitas em estoque: 0
+15 -  Fitas em estoque: 0
+
+Lucro: 0

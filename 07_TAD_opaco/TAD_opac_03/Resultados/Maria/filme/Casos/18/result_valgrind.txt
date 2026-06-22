@@ -1,0 +1,83 @@
+==59258== Memcheck, a memory error detector
+==59258== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==59258== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==59258== Command: Resultados/Maria/filme/prog Resultados/Maria/filme/Casos/18
+==59258== Parent PID: 59257
+==59258== 
+==59258== Conditional jump or move depends on uninitialised value(s)
+==59258==    at 0x485B169: strlen (vg_replace_strmem.c:506)
+==59258==    by 0x48E7BC7: __printf_buffer (vfprintf-process-arg.c:443)
+==59258==    by 0x48E89E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==59258==    by 0x48DC3B2: printf (printf.c:33)
+==59258==    by 0x4001367: ImprimirNomeFilme (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001686: CadastrarFilmeLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x40016E6: LerCadastroLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001F04: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== Use of uninitialised value of size 8
+==59258==    at 0x48DB2E2: _itoa_word (_fitoa_word.c:38)
+==59258==    by 0x48E689C: __printf_buffer (vfprintf-process-arg.c:155)
+==59258==    by 0x48E89E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==59258==    by 0x48DC3B2: printf (printf.c:33)
+==59258==    by 0x4001E46: ConsultarEstoqueLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001FB3: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== Conditional jump or move depends on uninitialised value(s)
+==59258==    at 0x48DB2E9: _itoa_word (_fitoa_word.c:38)
+==59258==    by 0x48E689C: __printf_buffer (vfprintf-process-arg.c:155)
+==59258==    by 0x48E89E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==59258==    by 0x48DC3B2: printf (printf.c:33)
+==59258==    by 0x4001E46: ConsultarEstoqueLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001FB3: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== Conditional jump or move depends on uninitialised value(s)
+==59258==    at 0x48E722A: __printf_buffer (vfprintf-process-arg.c:186)
+==59258==    by 0x48E89E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==59258==    by 0x48DC3B2: printf (printf.c:33)
+==59258==    by 0x4001E46: ConsultarEstoqueLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001FB3: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== Conditional jump or move depends on uninitialised value(s)
+==59258==    at 0x48E7694: __printf_buffer (vfprintf-process-arg.c:208)
+==59258==    by 0x48E89E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==59258==    by 0x48DC3B2: printf (printf.c:33)
+==59258==    by 0x4001E46: ConsultarEstoqueLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001FB3: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== Conditional jump or move depends on uninitialised value(s)
+==59258==    at 0x40017DB: AlugarFilmesLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x40019A9: LerAluguelLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001F40: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== Conditional jump or move depends on uninitialised value(s)
+==59258==    at 0x485C53C: strcmp (vg_replace_strmem.c:941)
+==59258==    by 0x400145A: CompararNomesFilmes (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001CF3: OrdenarFilmesLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001FA7: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== Conditional jump or move depends on uninitialised value(s)
+==59258==    at 0x485C573: strcmp (vg_replace_strmem.c:941)
+==59258==    by 0x400145A: CompararNomesFilmes (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001CF3: OrdenarFilmesLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001FA7: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== Conditional jump or move depends on uninitialised value(s)
+==59258==    at 0x485C57C: strcmp (vg_replace_strmem.c:941)
+==59258==    by 0x400145A: CompararNomesFilmes (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001CF3: OrdenarFilmesLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001FA7: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== Conditional jump or move depends on uninitialised value(s)
+==59258==    at 0x4001CF6: OrdenarFilmesLocadora (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258==    by 0x4001FA7: main (in /home/maria-lopes/Área de trabalho/UFES/exec-prog-ii/07_TAD_opaco/TAD_opac_03/Resultados/Maria/filme/prog)
+==59258== 
+==59258== 
+==59258== HEAP SUMMARY:
+==59258==     in use at exit: 0 bytes in 0 blocks
+==59258==   total heap usage: 7 allocs, 7 frees, 8,304 bytes allocated
+==59258== 
+==59258== All heap blocks were freed -- no leaks are possible
+==59258== 
+==59258== Use --track-origins=yes to see where uninitialised values come from
+==59258== For lists of detected and suppressed errors, rerun with: -s
+==59258== ERROR SUMMARY: 69 errors from 10 contexts (suppressed: 0 from 0)

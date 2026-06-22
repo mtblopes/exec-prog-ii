@@ -1,0 +1,15 @@
+==55040== Memcheck, a memory error detector
+==55040== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==55040== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==55040== Command: Resultados/Maria/locadora/prog Resultados/Maria/locadora/Casos/13
+==55040== Parent PID: 55039
+==55040== 
+==55040== 
+==55040== HEAP SUMMARY:
+==55040==     in use at exit: 0 bytes in 0 blocks
+==55040==   total heap usage: 7 allocs, 7 frees, 8,304 bytes allocated
+==55040== 
+==55040== All heap blocks were freed -- no leaks are possible
+==55040== 
+==55040== For lists of detected and suppressed errors, rerun with: -s
+==55040== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
